@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+/* Bizconnect Technologies — Premium design system */
+:root {
+  /* shadcn/ui theme tokens (HSL values without function wrapper) */
+  --background: 210 80% 4%;
+  --foreground: 210 60% 96%;
+  --card: 210 55% 14%;
+  --card-foreground: 210 60% 96%;
+  --popover: 210 60% 10%;
+  --popover-foreground: 210 60% 96%;
+  --primary: 200 100% 43%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 210 45% 18%;
+  --secondary-foreground: 210 60% 96%;
+  --muted: 210 30% 25%;
+  --muted-foreground: 200 35% 60%;
+  --accent: 190 100% 50%;
+  --accent-foreground: 210 80% 4%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 200 60% 18%;
+  --input: 200 60% 18%;
+  --ring: 200 100% 43%;
+  --radius: 0.75rem;
+
+  /* Core palette — blue gradient scheme from logo */
+  --bg-deep: #020a14;
+  --bg: #041220;
+  --bg-elevated: #081c30;
+  --bg-card: #0b2240;
+  --panel: #0d2a4a;
+  --border-color: rgba(0, 150, 220, 0.18);
+  --border-strong: rgba(0, 170, 255, 0.35);
+
+  --text: #eef6ff;
+  --text-muted: #a0c8e8;
+  --text-subtle: #6aacdb;
+  --muted-color: #7cc0e8;
+  --muted-soft: rgba(108, 190, 230, 0.7);
+
+  --brand: #0096dc;
+  --brand-bright: #00aaff;
+  --brand-glow: rgba(0, 150, 220, 0.4);
+  --brand-dark: #005f9e;
+  --accent-color: #00d4ff;
+  --accent-soft: rgba(0, 212, 255, 0.12);
+
+  /* Typography */
+  --font-display: 'Outfit', system-ui, sans-serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+
+  /* Motion */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-fast: 200ms;
+  --duration-normal: 350ms;
+  --duration-slow: 600ms;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--bg-deep);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Background canvas */
+.app-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(ellipse 120% 80% at 80% -20%, rgba(0, 150, 220, 0.1) 0%, transparent 50%),
+    radial-gradient(ellipse 80% 60% at -10% 30%, rgba(0, 170, 255, 0.07) 0%, transparent 45%),
+    radial-gradient(ellipse 60% 100% at 50% 100%, rgba(0, 119, 200, 0.05) 0%, transparent 50%),
+    var(--bg-deep);
+  pointer-events: none;
+}
+
+.app-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+#root {
+  min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
+  min-width: 0;
+}
+
+/* Layout */
+main {
+  max-width: 100%;
+  overflow-x: hidden;
+  min-width: 0;
+}
+.container {
+  width: 100%;
+  max-width: min(1120px, 92vw);
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 4vw, 2rem);
+  box-sizing: border-box;
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+h1 { font-size: clamp(2.25rem, 5.5vw, 3.5rem); }
+h2 { font-size: clamp(1.75rem, 4vw, 2.25rem); }
+h3 { font-size: clamp(1.125rem, 2vw, 1.35rem); }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}

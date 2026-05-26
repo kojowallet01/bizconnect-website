@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#020a14"/>
+      <stop offset="100%" style="stop-color:#041e38"/>
+    </linearGradient>
+    <!-- Brand accent gradient -->
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0096dc"/>
+      <stop offset="100%" style="stop-color:#00aaff"/>
+    </linearGradient>
+    <!-- Glow radial -->
+    <radialGradient id="glow1" cx="75%" cy="20%" r="50%">
+      <stop offset="0%" style="stop-color:#0096dc;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#020a14;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="15%" cy="80%" r="40%">
+      <stop offset="0%" style="stop-color:#00aaff;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#020a14;stop-opacity:0"/>
+    </radialGradient>
+    <!-- Logo circle gradient -->
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0096dc"/>
+      <stop offset="100%" style="stop-color:#0055a8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#0096dc" flood-opacity="0.35"/>
+    </filter>
+    <filter id="logoOnDark" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Ambient glows -->
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <!-- Subtle grid lines -->
+  <g stroke="rgba(0,150,220,0.06)" stroke-width="1">
+    <line x1="0" y1="105" x2="1200" y2="105"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- Decorative circle rings top-right -->
+  <circle cx="1080" cy="100" r="180" fill="none" stroke="rgba(0,150,220,0.08)" stroke-width="1"/>
+  <circle cx="1080" cy="100" r="130" fill="none" stroke="rgba(0,150,220,0.06)" stroke-width="1"/>
+  <circle cx="1080" cy="100" r="80" fill="none" stroke="rgba(0,150,220,0.05)" stroke-width="1"/>
+
+  <!-- Decorative circle rings bottom-left -->
+  <circle cx="120" cy="530" r="140" fill="none" stroke="rgba(0,170,255,0.07)" stroke-width="1"/>
+  <circle cx="120" cy="530" r="90" fill="none" stroke="rgba(0,170,255,0.05)" stroke-width="1"/>
+
+  <!-- Accent bar top -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#brandGrad)"/>
+
+  <!-- Company logo -->
+  <image href="logo.png" x="80" y="118" width="200" height="140" preserveAspectRatio="xMidYMid meet" filter="url(#logoOnDark)"/>
+
+  <!-- Divider line -->
+  <rect x="80" y="272" width="520" height="2" fill="url(#brandGrad)" rx="1"/>
+
+  <!-- Main headline -->
+  <text x="80" y="340" font-family="Arial, sans-serif" font-weight="900" font-size="52" fill="#ffffff" letter-spacing="-1">Web Design &amp; Digital</text>
+  <text x="80" y="402" font-family="Arial, sans-serif" font-weight="900" font-size="52" fill="#ffffff" letter-spacing="-1">Marketing Worldwide</text>
+
+  <!-- Subline -->
+  <text x="80" y="458" font-family="Arial, sans-serif" font-weight="400" font-size="24" fill="rgba(255,255,255,0.65)">Professional websites · Social media · SEO · Logo design</text>
+
+  <!-- Service tags -->
+  <rect x="80" y="498" width="150" height="38" rx="19" fill="rgba(0,150,220,0.18)" stroke="rgba(0,150,220,0.4)" stroke-width="1"/>
+  <text x="155" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600" font-size="16" fill="#00aaff">Web Design</text>
+
+  <rect x="244" y="498" width="150" height="38" rx="19" fill="rgba(0,150,220,0.18)" stroke="rgba(0,150,220,0.4)" stroke-width="1"/>
+  <text x="319" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600" font-size="16" fill="#00aaff">Marketing</text>
+
+  <rect x="408" y="498" width="110" height="38" rx="19" fill="rgba(0,150,220,0.18)" stroke="rgba(0,150,220,0.4)" stroke-width="1"/>
+  <text x="463" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600" font-size="16" fill="#00aaff">SEO</text>
+
+  <rect x="532" y="498" width="200" height="38" rx="19" fill="rgba(0,150,220,0.18)" stroke="rgba(0,150,220,0.4)" stroke-width="1"/>
+  <text x="632" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600" font-size="16" fill="#00aaff">Worldwide</text>
+
+  <!-- Right side: CTA card -->
+  <rect x="780" y="220" width="340" height="220" rx="20" fill="rgba(0,150,220,0.1)" stroke="rgba(0,150,220,0.3)" stroke-width="1"/>
+
+  <!-- Free consultation badge -->
+  <rect x="820" y="252" width="260" height="44" rx="12" fill="url(#brandGrad)"/>
+  <text x="950" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="white">Free Consultation</text>
+
+  <text x="950" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-weight="400" font-size="16" fill="rgba(255,255,255,0.7)">10–14 day delivery</text>
+  <text x="950" y="358" text-anchor="middle" font-family="Arial, sans-serif" font-weight="400" font-size="16" fill="rgba(255,255,255,0.7)">Mobile-first · SEO included</text>
+  <text x="950" y="386" text-anchor="middle" font-family="Arial, sans-serif" font-weight="400" font-size="16" fill="rgba(255,255,255,0.7)">No hidden fees</text>
+
+  <!-- Website URL -->
+  <text x="950" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600" font-size="18" fill="rgba(0,170,255,0.8)">bizconnecttechnologies.com</text>
+
+  <!-- Accent bar bottom -->
+  <rect x="0" y="626" width="1200" height="4" fill="url(#brandGrad)"/>
+</svg>

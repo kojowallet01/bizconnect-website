@@ -1,0 +1,9 @@
+# Bizconnect Technologies - robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap (replace with your live domain if different)
+Sitemap: https://bizconnecttechnologies.com/sitemap.xml
+
+# Disallow admin or private paths if you add them later
+# Disallow: /admin/

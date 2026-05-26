@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Header />
-      <main role="main" aria-label="Bizconnect Technologies – Web design and digital marketing for businesses worldwide">
+      <main role="main" aria-label="Bizconnect Technologies – Web design and digital marketing for businesses in Ghana">
         <Hero />
         <div className="light-body">
           <Stats />

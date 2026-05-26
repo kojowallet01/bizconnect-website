@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 const values = [
   { title: 'Clear communication', desc: 'Updated at every stage, plain language.' },
   { title: 'Transparent pricing', desc: 'Clear quote first, with no hidden fees.' },
-  { title: 'Built for growth', desc: 'Designed for how your customers find you online.' },
+  { title: 'Built for Ghana', desc: 'Designed for how your customers find you.' },
   { title: 'No lock-in', desc: 'Your site, your data. Full handover when done.' },
 ]
 
@@ -20,12 +20,12 @@ export function About() {
             transition={{ duration: 0.5 }}
           >
             <span className="about-eyebrow">About us</span>
-            <h2 id="about-heading" className="about-heading">Why businesses worldwide choose us for web design and digital marketing</h2>
+            <h2 id="about-heading" className="about-heading">Why Ghanaian businesses choose us for web design and digital marketing</h2>
             <p className="about-lead">
-              We help small and growing businesses get online with professional websites, social media marketing, SEO, and digital tech support — without big-agency cost or complexity. We deliver on time and keep it simple.
+              We help small and growing businesses in Ghana get online with professional websites, social media marketing, SEO, and digital tech support — without big-agency cost or complexity. We deliver on time and keep it simple.
             </p>
             <p className="about-lead about-lead--last">
-              Our goal: make quality web design, digital marketing, and logo design accessible so more businesses get found on Google and chosen by customers — wherever you operate.
+              Our goal: make quality web design, digital marketing, and logo design accessible so more Ghanaian businesses get found on Google and chosen by customers in Accra, Tema, Kumasi and beyond.
             </p>
           </motion.div>
           <motion.div

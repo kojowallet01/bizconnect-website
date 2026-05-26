@@ -4,17 +4,17 @@ const testimonials = [
   {
     quote: 'Customers reach us easily via the site and WhatsApp. Regular inquiries now.',
     name: 'Abena M.',
-    role: 'Hair Studio Owner',
+    role: 'Hair Studio Owner, Accra',
   },
   {
     quote: 'Professional site, fast on mobile. Enquiries went up in the first few weeks.',
     name: 'Kwesi D.',
-    role: 'Plumbing Services',
+    role: 'Plumbing Services, Tema',
   },
   {
     quote: 'Concept to launch in under two weeks. Design, content, and hosting, all hassle-free.',
     name: 'Yaa A.',
-    role: 'Fashion Brand',
+    role: 'Fashion Brand, Kumasi',
   },
 ]
 
@@ -39,7 +39,7 @@ export function Testimonials() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          Trusted by businesses worldwide
+          Trusted by businesses across Ghana
         </motion.h2>
         <motion.p
           className="testimonial-lead"

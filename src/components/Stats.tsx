@@ -4,7 +4,7 @@ const stats = [
   { value: '50+', label: 'Projects delivered' },
   { value: '10–14', label: 'Days typical delivery' },
   { value: '100%', label: 'Mobile-first build' },
-  { value: 'Worldwide', label: 'Clients we serve' },
+  { value: 'Nationwide', label: 'Serving Ghana' },
 ]
 
 export function Stats() {

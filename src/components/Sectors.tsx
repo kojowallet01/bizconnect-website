@@ -32,7 +32,7 @@ export function Sectors() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          Business sectors we serve worldwide
+          Business sectors we serve in Ghana
         </motion.h2>
         <motion.p
           className="sectors-lead"
@@ -41,7 +41,7 @@ export function Sectors() {
           viewport={{ once: true }}
           transition={{ duration: 0.4, delay: 0.1 }}
         >
-          From retail and salons to startups and NGOs, we build business websites and digital marketing for companies across industries and regions.
+          From retail and salons to startups and NGOs, we build business websites and digital marketing for companies across Accra, Tema, Kumasi and Ghana.
         </motion.p>
         <motion.div
           className="sectors-tags"

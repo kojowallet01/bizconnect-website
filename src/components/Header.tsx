@@ -27,7 +27,11 @@ export function Header() {
     >
       <div className="container header-inner">
         <a href="#" className="logo" aria-label="Bizconnect Technologies home">
-          <img src="/logo.png" alt="Bizconnect Technologies" className="logo-img" width={160} height={56} />
+          <img src="/logo.png" alt="Bizconnect Technologies – Web design and digital marketing Ghana" className="logo-icon" />
+          <span className="logo-text">
+            <span className="logo-name">BIZCONNECT</span>
+            <span className="logo-sub">TECHNOLOGIES</span>
+          </span>
         </a>
 
         <button

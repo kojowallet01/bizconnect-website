@@ -90,7 +90,7 @@ export function Work() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.05 }}
           >
-            Our website design portfolio
+            Our website design portfolio – Ghana
           </motion.h2>
           <motion.p
             className="work-lead"
@@ -99,7 +99,7 @@ export function Work() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            Real web design and digital projects for businesses worldwide: business websites, web apps, brand sites, and portfolios.
+            Real web design and digital projects for businesses across Ghana: business websites, web apps, brand sites, and portfolios.
           </motion.p>
           <motion.p
             className="work-meta"
@@ -128,7 +128,7 @@ export function Work() {
               <div className="work-card-img-wrap">
                 <img
                   src={project.image}
-                  alt={`${project.title} – ${project.tag} by Bizconnect Technologies`}
+                  alt={`${project.title} – ${project.tag} by Bizconnect Technologies web design Ghana`}
                   className="work-card-img"
                   loading="lazy"
                 />

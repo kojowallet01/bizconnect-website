@@ -50,10 +50,14 @@ export function Footer() {
       <div className="container">
         <div className="footer-top">
           <div className="footer-brand">
-            <a href="#" className="logo logo--footer">
-              <img src="/logo.png" alt="Bizconnect Technologies" className="logo-img" width={180} height={64} />
+            <a href="#" className="logo">
+              <img src="/logo.png" alt="Bizconnect Technologies – Web design and digital marketing Ghana" className="logo-icon" />
+              <span className="logo-text">
+                <span className="logo-name">BIZCONNECT</span>
+                <span className="logo-sub">TECHNOLOGIES</span>
+              </span>
             </a>
-            <p className="foot-tag">Digital presence and tech for businesses worldwide — web design, marketing, and support wherever you are.</p>
+            <p className="foot-tag">Digital presence and tech for businesses across Ghana: Accra, Tema, Kumasi and nationwide.</p>
             <div className="footer-social">
               {SOCIAL.map(({ href, label, rel, icon }) => (
                 <a key={label} href={href} target="_blank" rel={rel} className="footer-social-link" aria-label={label}>
@@ -75,7 +79,7 @@ export function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <small>&copy; {year} Bizconnect Technologies. All rights reserved.</small>
+          <small>&copy; {year} Bizconnect Technologies. Built in Ghana.</small>
         </div>
       </div>
     </footer>

@@ -39,7 +39,7 @@ export function Enquiry() {
             <span className="enquiry-eyebrow">Let's talk</span>
             <h2 id="enquiry-heading" className="enquiry-heading">Get your business website and digital marketing started</h2>
             <p className="enquiry-lead">
-              Tell us your web design or digital marketing needs. We’ll respond with a plan and quote. No obligation. We work with clients worldwide.
+              Tell us your web design or digital marketing needs. We’ll respond with a plan and quote. No obligation. We serve Accra, Tema, Kumasi and all of Ghana.
             </p>
             <div className="enquiry-trust">
               <div className="enquiry-trust-item">
@@ -55,8 +55,8 @@ export function Enquiry() {
                 <span>No obligation quote</span>
               </div>
               <div className="enquiry-trust-item">
-                <span className="enquiry-trust-icon">🌍</span>
-                <span>Worldwide clients welcome</span>
+                <span className="enquiry-trust-icon">🇬🇭</span>
+                <span>Based in Ghana, for Ghana</span>
               </div>
             </div>
             <a
@@ -80,7 +80,7 @@ export function Enquiry() {
             <div className="enquiry-form-inner">
               <label className="eq-field">
                 <span>Full name</span>
-                <input type="text" name="name" placeholder="Alex Morgan" required />
+                <input type="text" name="name" placeholder="Kojo Mensah" required />
               </label>
               <label className="eq-field">
                 <span>Email</span>
@@ -88,7 +88,7 @@ export function Enquiry() {
               </label>
               <label className="eq-field">
                 <span>WhatsApp</span>
-                <input type="tel" name="phone" placeholder="+1 555 000 0000" required />
+                <input type="tel" name="phone" placeholder="+233 53 798 4448" required />
               </label>
               <label className="eq-field">
                 <span>Business name</span>

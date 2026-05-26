@@ -12,7 +12,7 @@ export function CTA() {
           viewport={{ once: true, margin: '-60px' }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="cta-heading">Get a professional website and digital presence for your business</h2>
+          <h2 className="cta-heading">Get a professional website and digital presence in Ghana</h2>
           <p className="cta-lead">Free consultation and a clear quote for your web design or digital marketing. No obligation.</p>
           <div className="cta-actions">
             <a

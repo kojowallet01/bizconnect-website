@@ -4,18 +4,18 @@ import { motion, AnimatePresence } from 'framer-motion'
 const items = [
   {
     id: 'q1',
-    question: 'How much does a website cost?',
-    answer: 'Cost depends on scope: a simple business site, multi-page website, or web app. We give a clear, transparent quote once we understand your goals. Most web design projects go live in 10–14 days with no hidden fees.',
+    question: 'How much does a website cost in Ghana?',
+    answer: 'Website cost in Ghana depends on scope: a simple business site, multi-page website, or web app. We give a clear, transparent quote once we understand your goals. Most web design projects go live in 10–14 days with no hidden fees.',
   },
   {
     id: 'q2',
     question: 'How long until my business website goes live?',
-    answer: 'Usually 10–14 days. We agree the timeline in the free consultation and keep you updated throughout. Our web design process is built for fast, reliable delivery.',
+    answer: 'Usually 10–14 days. We agree the timeline in the free consultation and keep you updated throughout. Our web design process is built for fast delivery across Ghana.',
   },
   {
     id: 'q3',
-    question: 'Do you work with clients internationally?',
-    answer: 'Yes. We work with businesses worldwide by WhatsApp, email, and video call. Your location is not a barrier — we collaborate remotely and deliver the same quality wherever you are.',
+    question: 'Do you do web design outside Accra?',
+    answer: 'Yes. We work nationwide across Ghana by WhatsApp, email, and video call. We serve Accra, Tema, Kumasi and all regions. Location is not a barrier.',
   },
   {
     id: 'q4',
@@ -29,28 +29,28 @@ const items = [
   },
   {
     id: 'q6',
-    question: 'Do you provide social media marketing?',
-    answer: 'Yes. We provide social media marketing for businesses worldwide — content strategy, posting, and paid campaigns on Facebook, Instagram, and more. We keep your brand consistent and help you grow your audience.',
+    question: 'Do you do social media marketing in Ghana?',
+    answer: 'Yes. We provide social media marketing for businesses across Ghana — content strategy, posting, and paid campaigns on Facebook, Instagram, and more. We keep your brand consistent and help you grow your audience.',
   },
   {
     id: 'q7',
-    question: 'Can you help my business rank on Google?',
-    answer: 'Yes. We provide SEO (search engine optimisation) as part of every website we build, and as a standalone service. This includes on-page SEO, Google Business Profile setup, and local SEO tailored to your market.',
+    question: 'Can you help my business rank on Google in Ghana?',
+    answer: 'Yes. We provide SEO (search engine optimisation) as part of every website we build, and as a standalone service. This includes on-page SEO, Google Business Profile setup, and local SEO for Accra, Tema, Kumasi and nationwide.',
   },
   {
     id: 'q8',
-    question: 'Do you design logos and brand identity?',
-    answer: 'Yes. We offer logo design, brand identity, and promotional graphics (flyers, social media graphics) for businesses worldwide. Logo design is included in our web design packages or available separately.',
+    question: 'Do you design logos and brand identity in Ghana?',
+    answer: 'Yes. We offer logo design, brand identity, and promotional graphics (flyers, social media graphics) for businesses across Ghana. Logo design is included in our web design packages or available separately.',
   },
   {
     id: 'q9',
     question: 'What types of businesses do you build websites for?',
-    answer: 'We build websites for all types of businesses: retail shops, salons, professional services, restaurants, startups, NGOs, health and wellness, events, trades, and more. If you have a business, we can build your online presence.',
+    answer: 'We build websites for all types of Ghanaian businesses: retail shops, salons, professional services, restaurants, startups, NGOs, health and wellness, events, trades, and more. If you have a business in Ghana, we can build your online presence.',
   },
   {
     id: 'q10',
-    question: 'Why choose Bizconnect Technologies?',
-    answer: 'Bizconnect Technologies delivers professional business websites in 10–14 days with transparent pricing, mobile-first design, SEO, and ongoing support — for clients worldwide, with clear communication every step of the way.',
+    question: 'Which is the best web design company in Ghana?',
+    answer: 'Bizconnect Technologies is a top-rated web design and digital marketing agency in Ghana. We deliver professional business websites in 10–14 days with transparent pricing, mobile-first design, SEO, and ongoing support — serving Accra, Tema, Kumasi and all of Ghana.',
   },
 ]
 
@@ -77,7 +77,7 @@ export function FAQ() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          FAQ – Web design and digital marketing
+          FAQ – Web design and digital marketing Ghana
         </motion.h2>
         <motion.p
           className="faq-lead"

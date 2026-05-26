@@ -27,9 +27,6 @@
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#0096dc" flood-opacity="0.35"/>
     </filter>
-    <filter id="logoOnDark" color-interpolation-filters="sRGB">
-      <feColorMatrix type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0"/>
-    </filter>
   </defs>
 
   <!-- Background -->
@@ -64,31 +61,36 @@
   <!-- Accent bar top -->
   <rect x="0" y="0" width="1200" height="4" fill="url(#brandGrad)"/>
 
-  <!-- Company logo -->
-  <image href="logo.png" x="80" y="118" width="200" height="140" preserveAspectRatio="xMidYMid meet" filter="url(#logoOnDark)"/>
+  <!-- Logo circle -->
+  <circle cx="120" cy="200" r="52" fill="url(#logoGrad)" filter="url(#shadow)"/>
+  <text x="120" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900" font-size="52" fill="white">B</text>
+
+  <!-- Company name -->
+  <text x="196" y="188" font-family="Arial, sans-serif" font-weight="900" font-size="38" fill="#ffffff" letter-spacing="3">BIZCONNECT</text>
+  <text x="196" y="222" font-family="Arial, sans-serif" font-weight="400" font-size="16" fill="rgba(255,255,255,0.55)" letter-spacing="8">TECHNOLOGIES</text>
 
   <!-- Divider line -->
   <rect x="80" y="272" width="520" height="2" fill="url(#brandGrad)" rx="1"/>
 
   <!-- Main headline -->
   <text x="80" y="340" font-family="Arial, sans-serif" font-weight="900" font-size="52" fill="#ffffff" letter-spacing="-1">Web Design &amp; Digital</text>
-  <text x="80" y="402" font-family="Arial, sans-serif" font-weight="900" font-size="52" fill="#ffffff" letter-spacing="-1">Marketing Worldwide</text>
+  <text x="80" y="402" font-family="Arial, sans-serif" font-weight="900" font-size="52" fill="#ffffff" letter-spacing="-1">Marketing in Ghana</text>
 
   <!-- Subline -->
   <text x="80" y="458" font-family="Arial, sans-serif" font-weight="400" font-size="24" fill="rgba(255,255,255,0.65)">Professional websites · Social media · SEO · Logo design</text>
 
-  <!-- Service tags -->
-  <rect x="80" y="498" width="150" height="38" rx="19" fill="rgba(0,150,220,0.18)" stroke="rgba(0,150,220,0.4)" stroke-width="1"/>
-  <text x="155" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600" font-size="16" fill="#00aaff">Web Design</text>
+  <!-- Location tags -->
+  <rect x="80" y="498" width="130" height="38" rx="19" fill="rgba(0,150,220,0.18)" stroke="rgba(0,150,220,0.4)" stroke-width="1"/>
+  <text x="145" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600" font-size="16" fill="#00aaff">Accra</text>
 
-  <rect x="244" y="498" width="150" height="38" rx="19" fill="rgba(0,150,220,0.18)" stroke="rgba(0,150,220,0.4)" stroke-width="1"/>
-  <text x="319" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600" font-size="16" fill="#00aaff">Marketing</text>
+  <rect x="224" y="498" width="130" height="38" rx="19" fill="rgba(0,150,220,0.18)" stroke="rgba(0,150,220,0.4)" stroke-width="1"/>
+  <text x="289" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600" font-size="16" fill="#00aaff">Tema</text>
 
-  <rect x="408" y="498" width="110" height="38" rx="19" fill="rgba(0,150,220,0.18)" stroke="rgba(0,150,220,0.4)" stroke-width="1"/>
-  <text x="463" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600" font-size="16" fill="#00aaff">SEO</text>
+  <rect x="368" y="498" width="130" height="38" rx="19" fill="rgba(0,150,220,0.18)" stroke="rgba(0,150,220,0.4)" stroke-width="1"/>
+  <text x="433" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600" font-size="16" fill="#00aaff">Kumasi</text>
 
-  <rect x="532" y="498" width="200" height="38" rx="19" fill="rgba(0,150,220,0.18)" stroke="rgba(0,150,220,0.4)" stroke-width="1"/>
-  <text x="632" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600" font-size="16" fill="#00aaff">Worldwide</text>
+  <rect x="512" y="498" width="180" height="38" rx="19" fill="rgba(0,150,220,0.18)" stroke="rgba(0,150,220,0.4)" stroke-width="1"/>
+  <text x="602" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600" font-size="16" fill="#00aaff">Nationwide</text>
 
   <!-- Right side: CTA card -->
   <rect x="780" y="220" width="340" height="220" rx="20" fill="rgba(0,150,220,0.1)" stroke="rgba(0,150,220,0.3)" stroke-width="1"/>

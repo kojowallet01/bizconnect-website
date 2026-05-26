@@ -1,6 +1,6 @@
 # Bizconnect Technologies
 
-Premium React webapp for Bizconnect Technologies — digital presence and technology solutions for businesses worldwide (websites, social media marketing, and more).
+Premium React webapp for Bizconnect Technologies — digital presence and technology solutions for businesses across Ghana (websites, social media marketing, and more).
 
 ## Stack
 

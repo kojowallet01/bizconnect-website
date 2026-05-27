@@ -23,7 +23,7 @@ export function CTA() {
                 document.getElementById('enquiry')?.scrollIntoView({ behavior: 'smooth' })
               }}
             >
-              Free consultation
+              Book a free discovery call
             </a>
             <a
               href={WHATSAPP_URL}

@@ -13,7 +13,7 @@ const pillars = [
     image: '/services/websites.jpg',
     modalTitle: 'Websites & Web Apps',
     modalDescription:
-      'Professional website design and web apps for Ghanaian businesses. Mobile-first, with clear calls to action and SEO so customers find and contact you on Google and social media.',
+      'Professional website design and web apps for businesses worldwide. Mobile-first, with clear calls to action and SEO so customers find and contact you on Google and social media.',
     modalPoints: [
       'Custom web design, logo and branding',
       'WhatsApp, phone & Google Maps integration',
@@ -27,7 +27,7 @@ const pillars = [
     image: '', // Godzilla mode: CSS-only gradient background
     modalTitle: 'Social Media & Marketing',
     modalDescription:
-      'Grow your audience across Ghana and beyond. Strategy, content, posting, and paid campaigns. We keep your brand consistent.',
+      'Grow your audience locally and globally. Strategy, content, posting, and paid campaigns. We keep your brand consistent.',
     modalPoints: [
       'Content strategy and posting',
       'Paid campaigns and analytics',
@@ -41,7 +41,7 @@ const pillars = [
     image: '/services/digital.jpg',
     modalTitle: 'Digital & Technology Solutions',
     modalDescription:
-      'Digital and technology solutions for Ghanaian businesses. Google Business Profile setup, payment links, WhatsApp catalog, and ongoing support so your online presence runs smoothly.',
+      'Digital and technology solutions for growing businesses. Google Business Profile setup, payment links, WhatsApp catalog, and ongoing support so your online presence runs smoothly.',
     modalPoints: [
       'Google Business Profile setup',
       'Payment links and WhatsApp catalog',
@@ -61,12 +61,12 @@ export function Hero() {
 
   return (
     <>
-      <section id="home" aria-label="Hero - Web design and digital marketing Ghana">
+      <section id="home" aria-label="Hero - Web design and digital marketing worldwide">
         <LiquidMetalHero
           badge="Digital Presence & Technology Solutions"
-          title="Web design and digital marketing for businesses across Ghana"
-          subtitle="We build professional business websites, run social media marketing, and deliver SEO and tech support so more customers find you in Accra, Tema, Kumasi and nationwide."
-          primaryCtaLabel="Get started"
+          title="Web design and digital marketing for businesses worldwide"
+          subtitle="We build professional business websites, run social media marketing, and deliver SEO and tech support so more customers find you — wherever your business operates."
+          primaryCtaLabel="Book a free discovery call"
           secondaryCtaLabel="See our work"
           onPrimaryCtaClick={() => {
             document.getElementById('enquiry')?.scrollIntoView({ behavior: 'smooth' })
@@ -96,7 +96,7 @@ export function Hero() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.05 }}
           >
-            Web design, digital marketing & SEO in Ghana
+            Web design, digital marketing & SEO
           </motion.h2>
           <motion.p
             className="services-lead"
@@ -105,7 +105,7 @@ export function Hero() {
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: 0.1 }}
           >
-            Business websites, social media marketing, logo design, and SEO. One team, clear delivery across Ghana.
+            Business websites, social media marketing, logo design, and SEO. One team, clear delivery wherever you are.
           </motion.p>
 
           <div className="services-grid">
@@ -122,7 +122,7 @@ export function Hero() {
               >
                 <div className={`service-card-img ${p.id === 'social' ? 'service-card-img--social-bg' : ''}`}>
                   {p.image ? (
-                    <img src={p.image} alt={p.title + ' - Bizconnect Technologies web design and digital services Ghana'} loading="lazy" />
+                    <img src={p.image} alt={p.title + ' - Bizconnect Technologies web design and digital services'} loading="lazy" />
                   ) : null}
                   {p.id === 'social' && (
                     <div className="service-card-social-logos" aria-hidden>

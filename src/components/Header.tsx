@@ -58,7 +58,7 @@ export function Header() {
             </a>
           ))}
           <a href="#enquiry" className="btn btn-primary btn-small nav-cta" onClick={() => setMenuOpen(false)}>
-            Get started
+            Book a call
           </a>
         </nav>
       </div>
